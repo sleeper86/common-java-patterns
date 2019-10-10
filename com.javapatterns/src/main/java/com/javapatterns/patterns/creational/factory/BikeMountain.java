@@ -1,6 +1,6 @@
 package com.javapatterns.patterns.creational.factory;
 
-public class MountainBike extends Bike {
+public class BikeMountain extends Bike {
 
 	@Override
 	public void adjustSeat() {

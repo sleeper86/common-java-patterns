@@ -9,13 +9,13 @@ public class BikeFactory extends BikeBaseFactory {
 		switch(type)
 		{
 		case "mountain":
-			bike = new MountainBike();
+			bike = new BikeMountain();
 			break;
 		case "road":
-			bike = new RoadBike();
+			bike = new BikeRoad();
 			break;
 		case "hybrid":
-			bike = new HybridBike();
+			bike = new BikeHybrid();
 			break;
 			default: throw new IllegalArgumentException("Bike type does not exist.");
 		}
