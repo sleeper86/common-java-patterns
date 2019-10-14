@@ -1,4 +1,4 @@
-package com.javapatterns.patterns.adapter;
+package com.javapatterns.patterns.structural.adapter;
 
 import org.junit.Test;
 
