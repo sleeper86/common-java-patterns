@@ -1,2 +1,2 @@
 # common-java-patterns
- Common Java patterns
+ Common Java patterns.
