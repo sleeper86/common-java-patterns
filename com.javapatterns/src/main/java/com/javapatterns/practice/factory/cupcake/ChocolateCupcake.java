@@ -1,4 +1,4 @@
-package com.javapatterns.practice.factory.cupcake.copy;
+package com.javapatterns.practice.factory.cupcake;
 
 public class ChocolateCupcake extends Cupcake {
 
