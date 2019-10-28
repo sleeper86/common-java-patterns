@@ -1,4 +1,4 @@
-package com.javapatterns.patterns.practice.factory.cupcake;
+package com.javapatterns.practice.factory.cupcake.copy;
 
 public abstract class CupcakeBaseFactory {
 	public abstract Cupcake makeCupcake(String type);
