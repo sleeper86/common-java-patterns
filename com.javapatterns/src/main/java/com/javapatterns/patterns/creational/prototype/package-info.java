@@ -1,0 +1,1 @@
+package com.javapatterns.patterns.creational.prototype;
