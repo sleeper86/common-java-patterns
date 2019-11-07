@@ -1,4 +1,4 @@
-package com.javapatterns.patterns.behavioral.chainofresponsibility.command;
+package com.javapatterns.patterns.behavioral.command;
 
 import org.junit.Test;
 
