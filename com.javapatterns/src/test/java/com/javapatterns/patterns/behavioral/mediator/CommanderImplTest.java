@@ -13,6 +13,8 @@ public class CommanderImplTest {
 	@Test
 	public void testMediator() throws Exception {
 		
+		System.out.println("************* Pattern: Mediator *************");
+		
 		Commander commander = new CommanderImpl();
 		ArmedUnit soldierUnit = new SoldierUnit(commander);
 		ArmedUnit tankUnit = new TankUnit(commander);
@@ -21,7 +23,9 @@ public class CommanderImplTest {
 		commander.startAttack(soldierUnit);
 		commander.startAttack(tankUnit);
 		commander.ceaseAttack(soldierUnit);
-		commander.startAttack(tankUnit);;
+		commander.startAttack(tankUnit);
+		
+		System.out.println();
 	}
 
 }

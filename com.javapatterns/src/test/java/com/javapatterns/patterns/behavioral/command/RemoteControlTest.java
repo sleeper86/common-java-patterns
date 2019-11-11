@@ -18,6 +18,8 @@ public class RemoteControlTest {
 	 */
 	@Test
 	public void testRemoteControlButtonPress() throws Exception {
+		System.out.println("************* Pattern: Command *************");
+		
 		RemoteControl remoteControl=new RemoteControl();
 		Car car=new Car();
 		
@@ -43,5 +45,7 @@ public class RemoteControlTest {
         
        System.out.println("-----Testing undoButtonPressed on RemoteControl for RotatingTop-----");
         remoteControl.undoButtonPress();
+        
+        System.out.println();
 	}
 }

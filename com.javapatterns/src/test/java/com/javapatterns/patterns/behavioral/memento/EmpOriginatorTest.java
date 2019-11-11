@@ -5,6 +5,8 @@ import org.junit.Test;
 public class EmpOriginatorTest {
 	@Test
     public void testMemento() throws Exception {
+		System.out.println("************* Pattern: Memento *************");
+		
         EmpOriginator empOriginator = new EmpOriginator (306,"Mark Ferguson", "131011789610","Sales Manager");
         
         EmpMemento empMemento = empOriginator.saveToMemento();
@@ -37,5 +39,7 @@ public class EmpOriginatorTest {
         empMemento=empCaretaker.getMemento();
         empOriginator.undoFromMemento(empMemento);
         empOriginator.printInfo();
+        
+        System.out.println();
     }
 }

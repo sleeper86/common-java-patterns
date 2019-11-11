@@ -8,6 +8,7 @@ public class ObservableJavaAPITest {
 	
     @Test
     public void testObserver() throws Exception {
+    	System.out.println("************* Pattern: Observer Java API *************");
     	
     	Product product = new Product("L340 Digital Camera", new BigDecimal(325));
         
@@ -22,5 +23,7 @@ public class ObservableJavaAPITest {
         product.setBidAmount(bidder1, new BigDecimal(350));
         product.deleteObserver(bidder2);
         product.setBidAmount(bidder3, new BigDecimal(375));
+        
+        System.out.println();
     }
 }

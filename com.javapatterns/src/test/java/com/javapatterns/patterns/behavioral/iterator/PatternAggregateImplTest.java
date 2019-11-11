@@ -7,6 +7,8 @@ public class PatternAggregateImplTest {
     @Test
     public void testPatternIterator() throws Exception {
     	
+    	System.out.println("************* Pattern: Iterator *************");
+    	
         DesignPattern pattern1 = new DesignPattern("Creational", "Factory Method");
         DesignPattern pattern2 = new DesignPattern("Creational", "Abstract Factory");
         DesignPattern pattern3 = new DesignPattern("Structural", "Adapter");
@@ -30,6 +32,8 @@ public class PatternAggregateImplTest {
         
         System.out.println("-----Pattern list after removal operation-----");
         printPatterns(patternAggregate);
+        
+        System.out.println();
     }
     
 	public void printPatterns(PatternAggregate patternAggregate) {

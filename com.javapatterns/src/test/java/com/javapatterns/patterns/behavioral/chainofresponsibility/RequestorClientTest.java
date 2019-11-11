@@ -8,6 +8,7 @@ public class RequestorClientTest {
 	
 	@Test
 	public void testGetHandlerChain() throws Exception {
+		System.out.println("************* Pattern: Chain of Responsibility *************");
 		AbstractSupportHandler handler = RequestorClient.getHandlerChain();
 		handler.receiveRequest(AbstractSupportHandler.TECHNICAL, "My internet is broken.");
 		
@@ -16,6 +17,7 @@ public class RequestorClientTest {
 		
 		System.out.println(".................................");
 		handler.receiveRequest(AbstractSupportHandler.GENERAL, "Please send any other plans for home users.");
+		System.out.println();
 	}
 
 }
