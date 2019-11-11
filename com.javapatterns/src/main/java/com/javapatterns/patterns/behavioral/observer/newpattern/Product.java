@@ -28,12 +28,13 @@ public class Product extends Observable {
     
     public void setBidAmount(Observer observer,BigDecimal newBidAmount) {
         System.out.println("-----------------New bid placed----------------");
-        int res=bidAmount.compareTo(newBidAmount);
+        int res = bidAmount.compareTo(newBidAmount);
+        
         if(res==-1) {
             this.observer = observer;
             this.bidAmount = newBidAmount;
-            setChanged();
-            notifyObservers(); // TODO throwing null exception
+            this.setChanged();
+            this.notifyObservers(); // TODO throwing null exception
         } else {
             System.out.println("New bid amount cannot be less or equal to current bid amount: "+this.bidAmount);
         }

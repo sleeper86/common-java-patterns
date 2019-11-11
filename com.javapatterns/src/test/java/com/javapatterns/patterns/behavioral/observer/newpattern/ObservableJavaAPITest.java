@@ -8,11 +8,12 @@ public class ObservableJavaAPITest {
 	
     @Test
     public void testObserver() throws Exception {
-        Product product = new Product("L340 Digital Camera", new BigDecimal(325));
+    	
+    	Product product = new Product("L340 Digital Camera", new BigDecimal(325));
         
-        Bidder bidder1=new Bidder("Shally Ferguson");
-        Bidder bidder2=new Bidder("Dwayne Bravo");
-        Bidder bidder3=new Bidder("Craig Dawson");
+        Bidder bidder1 = new Bidder("Shally Ferguson");
+        Bidder bidder2 = new Bidder("Dwayne Bravo");
+        Bidder bidder3 = new Bidder("Craig Dawson");
         
         product.addObserver(bidder1);
         product.addObserver(bidder2);

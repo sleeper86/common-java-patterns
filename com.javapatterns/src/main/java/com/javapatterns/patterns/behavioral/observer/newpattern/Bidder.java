@@ -14,7 +14,7 @@ public class Bidder implements Observer {
 
 	@Override
 	public void update(Observable o, Object arg) {
-        this.observable = (Product) observable;
+        this.observable = (Product) o;
         String name = this.observable.getObserver().toString();
         
         if(name.equals(bidderName)) {
