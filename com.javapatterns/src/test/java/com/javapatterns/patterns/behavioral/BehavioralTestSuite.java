@@ -11,9 +11,11 @@ import com.javapatterns.patterns.behavioral.mediator.CommanderImplTest;
 import com.javapatterns.patterns.behavioral.memento.EmpOriginatorTest;
 import com.javapatterns.patterns.behavioral.observer.newpattern.ObservableJavaAPITest;
 import com.javapatterns.patterns.behavioral.observer.oldpattern.ObserverTest;
+import com.javapatterns.patterns.behavioral.state.CandyVendingMachineTest;
 
 @RunWith(Suite.class)				
 @Suite.SuiteClasses({		
+	CandyVendingMachineTest.class,
 	CommanderImplTest.class,
 	EmpOriginatorTest.class,
 	ExpressionParserTest.class,
