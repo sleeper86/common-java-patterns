@@ -12,12 +12,14 @@ import com.javapatterns.patterns.behavioral.memento.EmpOriginatorTest;
 import com.javapatterns.patterns.behavioral.observer.newpattern.ObservableJavaAPITest;
 import com.javapatterns.patterns.behavioral.observer.oldpattern.ObserverTest;
 import com.javapatterns.patterns.behavioral.state.CandyVendingMachineTest;
+import com.javapatterns.patterns.behavioral.strategy.EncryptorTest;
 
 @RunWith(Suite.class)				
 @Suite.SuiteClasses({		
 	CandyVendingMachineTest.class,
 	CommanderImplTest.class,
 	EmpOriginatorTest.class,
+	EncryptorTest.class,
 	ExpressionParserTest.class,
 	ObservableJavaAPITest.class,
 	ObserverTest.class,
