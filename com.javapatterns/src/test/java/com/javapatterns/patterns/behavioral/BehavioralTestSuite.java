@@ -14,6 +14,7 @@ import com.javapatterns.patterns.behavioral.observer.oldpattern.ObserverTest;
 import com.javapatterns.patterns.behavioral.state.CandyVendingMachineTest;
 import com.javapatterns.patterns.behavioral.strategy.EncryptorTest;
 import com.javapatterns.patterns.behavioral.template.PizzaMakerTest;
+import com.javapatterns.patterns.behavioral.visitor.MailClientVisitorTest;
 
 @RunWith(Suite.class)				
 @Suite.SuiteClasses({		
@@ -22,6 +23,7 @@ import com.javapatterns.patterns.behavioral.template.PizzaMakerTest;
 	EmpOriginatorTest.class,
 	EncryptorTest.class,
 	ExpressionParserTest.class,
+	MailClientVisitorTest.class,
 	ObservableJavaAPITest.class,
 	ObserverTest.class,
 	PatternAggregateImplTest.class,
